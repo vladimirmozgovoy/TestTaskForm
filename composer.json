@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Core\\":"Core/",
+      "Controllers\\": "App/Controllers/",
+      "Models\\": "App/Models/",
+      "Routes\\": "Core/Routes/",
+      "Forms\\": "App/Forms/",
+      "Validators\\": "Core/Validators/",
+      "FormInterfaces\\": "App/Forms/Interfaces/",
+      "ValidatorInterfaces\\": "Core/Validators/Interfaces/"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.1",
+    "ext-json": "*",
+    "ext-pgsql": "*"
+  }
+}
